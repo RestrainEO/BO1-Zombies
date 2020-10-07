@@ -47,3 +47,52 @@ C:\Users\pelu1\source\repos\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Bl
 C:\Users\pelu1\source\repos\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.exe
 C:\Users\pelu1\source\repos\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.pdb
 C:\Users\pelu1\source\repos\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.exe.licenses
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\Black Ops - Zombies.exe.config
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\Black Ops - Zombies.exe
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\Black Ops - Zombies.pdb
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.BonusSkins.v19.1.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Data.v19.1.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Utils.v19.1.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Data.v19.1.xml
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Utils.v19.1.xml
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.csprojAssemblyReference.cache
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black_Ops___Zombies.BlackOpsZombies.resources
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black_Ops___Zombies.Properties.Resources.resources
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.csproj.GenerateResource.cache
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.exe.licenses
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.csproj.CoreCompileInputs.cache
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.csproj.CopyComplete
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.exe
+C:\Users\pelu1\Documents\GitHub\BO1-Zombies\Black Ops - Zombies\Black Ops - Zombies\obj\Debug\Black Ops - Zombies.pdb
