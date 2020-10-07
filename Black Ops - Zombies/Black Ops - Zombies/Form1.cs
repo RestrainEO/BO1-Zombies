@@ -325,7 +325,7 @@ namespace Black_Ops___Zombies
         private void GrabClients_Click(object sender, EventArgs e)
         {
             ClientList.Items.Clear();
-            string ClientName = ASCIIEncoding.ASCII.GetString(Mem.ReadBytes(0x01C0A678, 15));
+            string ClientName = ASCIIEncoding.ASCII.GetString(Mem.ReadBytes(0x01C0A678, 15));  ///Not yet done as i didn't have anyone else in my game to get the next addresses.
             ClientList.Items.Add(ClientName);
         }
 
