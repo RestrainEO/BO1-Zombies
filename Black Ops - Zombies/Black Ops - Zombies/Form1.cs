@@ -513,5 +513,10 @@ namespace Black_Ops___Zombies
         {
             Functions.DropWeapon();//
         }
+
+        private void SendConsoleCommandButton_Click(object sender, EventArgs e)
+        {
+            Structs.CBuf_AddText(ConsoleCommandTextBox.Text);
+        }
     }
 }

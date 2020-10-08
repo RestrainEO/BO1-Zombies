@@ -36,18 +36,24 @@
             this.ClientList = new System.Windows.Forms.ListView();
             this.Clients = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SelfOptionsGroupBox = new DevExpress.XtraEditors.GroupControl();
+            this.DropWeaponButton = new DevExpress.XtraEditors.SimpleButton();
+            this.GiveSelfWeapons = new DevExpress.XtraEditors.ComboBoxEdit();
             this.NoTargetSwitch = new DevExpress.XtraEditors.ToggleSwitch();
             this.NoclipSwitch = new DevExpress.XtraEditors.ToggleSwitch();
             this.GodModeSwitch = new DevExpress.XtraEditors.ToggleSwitch();
-            this.GiveSelfWeapons = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.DropWeaponButton = new DevExpress.XtraEditors.SimpleButton();
+            this.ConsoleGroupBox = new DevExpress.XtraEditors.GroupControl();
+            this.ConsoleCommandTextBox = new DevExpress.XtraEditors.TextEdit();
+            this.SendConsoleCommandButton = new DevExpress.XtraEditors.SimpleButton();
             this.ClientOptions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SelfOptionsGroupBox)).BeginInit();
             this.SelfOptionsGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GiveSelfWeapons.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NoTargetSwitch.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NoclipSwitch.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GodModeSwitch.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GiveSelfWeapons.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConsoleGroupBox)).BeginInit();
+            this.ConsoleGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ConsoleCommandTextBox.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // GameStatusLabel
@@ -119,41 +125,16 @@
             this.SelfOptionsGroupBox.TabIndex = 2;
             this.SelfOptionsGroupBox.Text = "Self Options";
             // 
-            // NoTargetSwitch
+            // DropWeaponButton
             // 
-            this.NoTargetSwitch.Location = new System.Drawing.Point(348, 42);
-            this.NoTargetSwitch.Name = "NoTargetSwitch";
-            this.NoTargetSwitch.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(148)))), ((int)(((byte)(0)))));
-            this.NoTargetSwitch.Properties.Appearance.Options.UseForeColor = true;
-            this.NoTargetSwitch.Properties.OffText = "No Target Off";
-            this.NoTargetSwitch.Properties.OnText = "No Target  On";
-            this.NoTargetSwitch.Size = new System.Drawing.Size(130, 20);
-            this.NoTargetSwitch.TabIndex = 2;
-            this.NoTargetSwitch.Toggled += new System.EventHandler(this.NoTargetSwitch_Toggled);
-            // 
-            // NoclipSwitch
-            // 
-            this.NoclipSwitch.Location = new System.Drawing.Point(211, 42);
-            this.NoclipSwitch.Name = "NoclipSwitch";
-            this.NoclipSwitch.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(148)))), ((int)(((byte)(0)))));
-            this.NoclipSwitch.Properties.Appearance.Options.UseForeColor = true;
-            this.NoclipSwitch.Properties.OffText = "Noclip Off";
-            this.NoclipSwitch.Properties.OnText = "Noclip  On";
-            this.NoclipSwitch.Size = new System.Drawing.Size(111, 20);
-            this.NoclipSwitch.TabIndex = 1;
-            this.NoclipSwitch.Toggled += new System.EventHandler(this.NoclipSwitch_Toggled);
-            // 
-            // GodModeSwitch
-            // 
-            this.GodModeSwitch.Location = new System.Drawing.Point(90, 42);
-            this.GodModeSwitch.Name = "GodModeSwitch";
-            this.GodModeSwitch.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(148)))), ((int)(((byte)(0)))));
-            this.GodModeSwitch.Properties.Appearance.Options.UseForeColor = true;
-            this.GodModeSwitch.Properties.OffText = "God Off";
-            this.GodModeSwitch.Properties.OnText = "God On";
-            this.GodModeSwitch.Size = new System.Drawing.Size(100, 20);
-            this.GodModeSwitch.TabIndex = 0;
-            this.GodModeSwitch.Toggled += new System.EventHandler(this.GodModeSwitch_Toggled);
+            this.DropWeaponButton.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(148)))), ((int)(((byte)(0)))));
+            this.DropWeaponButton.Appearance.Options.UseForeColor = true;
+            this.DropWeaponButton.Location = new System.Drawing.Point(318, 354);
+            this.DropWeaponButton.Name = "DropWeaponButton";
+            this.DropWeaponButton.Size = new System.Drawing.Size(75, 23);
+            this.DropWeaponButton.TabIndex = 4;
+            this.DropWeaponButton.Text = "Drop Weapon";
+            this.DropWeaponButton.Click += new System.EventHandler(this.DropWeaponButton_Click);
             // 
             // GiveSelfWeapons
             // 
@@ -204,22 +185,74 @@
             this.GiveSelfWeapons.TabIndex = 3;
             this.GiveSelfWeapons.SelectedIndexChanged += new System.EventHandler(this.GiveSelfWeapons_SelectedIndexChanged);
             // 
-            // DropWeaponButton
+            // NoTargetSwitch
             // 
-            this.DropWeaponButton.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(148)))), ((int)(((byte)(0)))));
-            this.DropWeaponButton.Appearance.Options.UseForeColor = true;
-            this.DropWeaponButton.Location = new System.Drawing.Point(318, 354);
-            this.DropWeaponButton.Name = "DropWeaponButton";
-            this.DropWeaponButton.Size = new System.Drawing.Size(75, 23);
-            this.DropWeaponButton.TabIndex = 4;
-            this.DropWeaponButton.Text = "Drop Weapon";
-            this.DropWeaponButton.Click += new System.EventHandler(this.DropWeaponButton_Click);
+            this.NoTargetSwitch.Location = new System.Drawing.Point(348, 42);
+            this.NoTargetSwitch.Name = "NoTargetSwitch";
+            this.NoTargetSwitch.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(148)))), ((int)(((byte)(0)))));
+            this.NoTargetSwitch.Properties.Appearance.Options.UseForeColor = true;
+            this.NoTargetSwitch.Properties.OffText = "No Target Off";
+            this.NoTargetSwitch.Properties.OnText = "No Target  On";
+            this.NoTargetSwitch.Size = new System.Drawing.Size(130, 20);
+            this.NoTargetSwitch.TabIndex = 2;
+            this.NoTargetSwitch.Toggled += new System.EventHandler(this.NoTargetSwitch_Toggled);
+            // 
+            // NoclipSwitch
+            // 
+            this.NoclipSwitch.Location = new System.Drawing.Point(211, 42);
+            this.NoclipSwitch.Name = "NoclipSwitch";
+            this.NoclipSwitch.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(148)))), ((int)(((byte)(0)))));
+            this.NoclipSwitch.Properties.Appearance.Options.UseForeColor = true;
+            this.NoclipSwitch.Properties.OffText = "Noclip Off";
+            this.NoclipSwitch.Properties.OnText = "Noclip  On";
+            this.NoclipSwitch.Size = new System.Drawing.Size(111, 20);
+            this.NoclipSwitch.TabIndex = 1;
+            this.NoclipSwitch.Toggled += new System.EventHandler(this.NoclipSwitch_Toggled);
+            // 
+            // GodModeSwitch
+            // 
+            this.GodModeSwitch.Location = new System.Drawing.Point(90, 42);
+            this.GodModeSwitch.Name = "GodModeSwitch";
+            this.GodModeSwitch.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(148)))), ((int)(((byte)(0)))));
+            this.GodModeSwitch.Properties.Appearance.Options.UseForeColor = true;
+            this.GodModeSwitch.Properties.OffText = "God Off";
+            this.GodModeSwitch.Properties.OnText = "God On";
+            this.GodModeSwitch.Size = new System.Drawing.Size(100, 20);
+            this.GodModeSwitch.TabIndex = 0;
+            this.GodModeSwitch.Toggled += new System.EventHandler(this.GodModeSwitch_Toggled);
+            // 
+            // ConsoleGroupBox
+            // 
+            this.ConsoleGroupBox.Controls.Add(this.SendConsoleCommandButton);
+            this.ConsoleGroupBox.Controls.Add(this.ConsoleCommandTextBox);
+            this.ConsoleGroupBox.Location = new System.Drawing.Point(588, 2);
+            this.ConsoleGroupBox.Name = "ConsoleGroupBox";
+            this.ConsoleGroupBox.Size = new System.Drawing.Size(310, 112);
+            this.ConsoleGroupBox.TabIndex = 3;
+            this.ConsoleGroupBox.Text = "Console";
+            // 
+            // ConsoleCommandTextBox
+            // 
+            this.ConsoleCommandTextBox.Location = new System.Drawing.Point(129, 59);
+            this.ConsoleCommandTextBox.Name = "ConsoleCommandTextBox";
+            this.ConsoleCommandTextBox.Size = new System.Drawing.Size(134, 20);
+            this.ConsoleCommandTextBox.TabIndex = 0;
+            // 
+            // SendConsoleCommandButton
+            // 
+            this.SendConsoleCommandButton.Location = new System.Drawing.Point(48, 57);
+            this.SendConsoleCommandButton.Name = "SendConsoleCommandButton";
+            this.SendConsoleCommandButton.Size = new System.Drawing.Size(75, 23);
+            this.SendConsoleCommandButton.TabIndex = 1;
+            this.SendConsoleCommandButton.Text = "Send";
+            this.SendConsoleCommandButton.Click += new System.EventHandler(this.SendConsoleCommandButton_Click);
             // 
             // BlackOpsZombies
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1260, 602);
+            this.Controls.Add(this.ConsoleGroupBox);
             this.Controls.Add(this.SelfOptionsGroupBox);
             this.Controls.Add(this.ClientList);
             this.Controls.Add(this.GameStatusLabel);
@@ -229,10 +262,13 @@
             this.ClientOptions.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SelfOptionsGroupBox)).EndInit();
             this.SelfOptionsGroupBox.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.GiveSelfWeapons.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NoTargetSwitch.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NoclipSwitch.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GodModeSwitch.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GiveSelfWeapons.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConsoleGroupBox)).EndInit();
+            this.ConsoleGroupBox.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ConsoleCommandTextBox.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,6 +288,9 @@
         private DevExpress.XtraEditors.ToggleSwitch GodModeSwitch;
         private DevExpress.XtraEditors.ComboBoxEdit GiveSelfWeapons;
         private DevExpress.XtraEditors.SimpleButton DropWeaponButton;
+        private DevExpress.XtraEditors.GroupControl ConsoleGroupBox;
+        private DevExpress.XtraEditors.SimpleButton SendConsoleCommandButton;
+        private DevExpress.XtraEditors.TextEdit ConsoleCommandTextBox;
     }
 }
 
